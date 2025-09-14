@@ -1,0 +1,92 @@
+{
+    "head0": {
+        "type": "header",
+        "description": "General Settings"
+    },
+    "custom-text": {
+        "type": "entry",
+        "default": "Hello, Desktop!",
+        "description": "Custom Text"
+    },
+    "enable-time": {
+        "type": "switch",
+        "default": true,
+        "description": "Show Current Time"
+    },
+    "use-24h": {
+        "type": "switch",
+        "default": true,
+        "description": "Use 24-hour time format",
+        "dependency": "enable-time"
+    },
+    
+    "head-countdown": {
+        "type": "header",
+        "description": "Countdown Settings"
+    },
+    "enable-countdown": {
+        "type": "switch",
+        "default": true,
+        "description": "Enable Countdown"
+    },
+    "countdown-title": {
+        "type": "entry",
+        "default": "CGA AL2026",
+        "description": "Countdown Title"
+    },
+    "countdown-date": {
+        "type": "entry",
+        "default": "2026-07-01",
+        "description": "Countdown Target Date (YYYY-MM-DD)"
+    },
+    
+    "head-quote": {
+        "type": "header",
+        "description": "Quote Settings"
+    },
+    "enable-quote": {
+        "type": "switch",
+        "default": true,
+        "description": "Enable Quote Display"
+    },
+
+    "head1": {
+        "type": "header",
+        "description": "Color Settings"
+    },
+    "text-color": {
+        "type": "colorchooser",
+        "default": "#ffffff",
+        "description": "Header Text Color"
+    },
+    "time-color": {
+        "type": "colorchooser",
+        "default": "#e0e0e0",
+        "description": "Time Color"
+    },
+    "day-color": {
+        "type": "colorchooser",
+        "default": "#ffffff",
+        "description": "Day Color"
+    },
+    "sunday-color": {
+        "type": "colorchooser",
+        "default": "#ffffff",
+        "description": "Sunday Color"
+    },
+    "monthyear-color": {
+        "type": "colorchooser",
+        "default": "#cccccc",
+        "description": "Month/Year Color"
+    },
+    "countdown-color": {
+        "type": "colorchooser",
+        "default": "#ff4444",
+        "description": "Countdown Color"
+    },
+    "quote-color": {
+        "type": "colorchooser",
+        "default": "#ffffff",
+        "description": "Quote Text Color"
+    }
+}

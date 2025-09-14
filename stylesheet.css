@@ -1,0 +1,152 @@
+/* Desklet custom styles */
+
+/* Container */
+.desklet-container {
+    padding: 25px 35px;
+    background-color: rgba(0, 0, 0, 0.027);
+    min-width: 500px;
+    transition: all 0.3s ease;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    position: relative;  /* For absolute positioning of quote */
+}
+
+.desklet-container:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    transform: scale(1.02);
+}
+
+/* Main custom text */
+.desklet-main-label {
+    font-family: 'Poppins', 'Inter', 'Quicksand', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    margin: 0;
+    padding: 5px 0;
+    letter-spacing: 0.5px;
+    width: 100%;
+    transition: color 0.3s ease;
+}
+
+/* Day label */
+.desklet-day-label {
+    font-family: 'Montserrat', 'Work Sans', 'Raleway', sans-serif;
+    font-size: 52px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+    margin: 5px 0;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.desklet-day-label.sunday {
+    font-size: 100px;  /* Much bigger for Sunday */
+    color: #ffffff;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+}
+
+/* Month and year label */
+.desklet-monthyear-label {
+    font-family: 'Inter', 'DM Sans', 'Nunito', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    margin: 0;
+    padding: 5px 0;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    width: 100%;
+    transition: color 0.3s ease;
+}
+
+/* Countdown label */
+.desklet-countdown-label {
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 22px;
+    color: #ff4444;
+    text-align: center;
+    padding: 15px 25px;
+    margin: 10px 0 0 0;
+    border: 1px solid var(--accent-color, rgba(255,68,68,0.3));
+    border-radius: 8px;
+    background-color: rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+    letter-spacing: 1px;
+    max-width: 90%;
+}
+
+.desklet-countdown-label:hover {
+    background-color: rgba(0,0,0,0.4);
+    box-shadow: 0 0 10px rgba(255,68,68,0.2);
+}
+
+/* Quote container */
+.quote-container {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    padding: 15px 18px;
+    max-width: 250px;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.quote-container:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Quote label */
+.desklet-quote-label {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: left;
+    font-style: italic;
+    line-height: 1.5;
+    transition: all 0.3s ease;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Timer */
+.desklet-timer {
+    font-family: 'JetBrains Mono', 'Fira Code', 'Roboto Mono', monospace;
+    font-size: 42px;
+    color: #e0e0e0;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+    margin: 10px 0;
+    padding: 8px 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    min-width: 240px;
+}
+
+.desklet-timer:hover {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.25);
+    text-shadow: 2px 2px 12px rgba(0,0,0,0.6);
+    transform: scale(1.02);
+}
+
+.desklet-quote-label:hover {
+    color: #ffffff;
+}

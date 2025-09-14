@@ -1,0 +1,7 @@
+{
+    "uuid": "timeleft@rashith",
+    "name": "Time Left",
+    "description": "Click on the applet to launch xkill and force any window to quit immediately",
+    "prevent-decorations": false,    
+    "author": "rashith senishka"
+}
