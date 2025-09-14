@@ -2,6 +2,8 @@
 
 A customizable countdown desklet for Cinnamon desktop environment that displays the current time, date, and a countdown to a specific event, along with inspirational quotes.
 
+![](snap.png)
+
 ## Features
 
 - Current time display with 12/24-hour format option
@@ -19,7 +21,12 @@ A customizable countdown desklet for Cinnamon desktop environment that displays 
 2. Copy the `timeleft@rashith` folder to `~/.local/share/cinnamon/desklets/`
 3. Enable the desklet through Cinnamon Settings > Desklets
 
+
 ## Configuration Options
+
+
+![](1.png)
+![](2.png)
 
 ### General Settings
 - Custom Header Text
@@ -59,6 +66,7 @@ All visual elements can be customized through the desklet's configuration panel:
 ## Credits
 
 - Quotes sourced from a curated collection of inspirational quotes
+- https://github.com/JamesFT/Database-Quotes-JSON/blob/master/README.md
 - Built for the Cinnamon desktop environment
 
 ## License
@@ -71,13 +79,6 @@ Contributions are welcome! Feel free to submit issues and pull requests.
 
 ## Author
 
-Rashith
+Rashith Senishka
 
-## Version History
 
-- 1.0.0: Initial release
-  - Basic time and date display
-  - Countdown functionality
-  - Quote display
-  - Color customization
-  - Component toggle options
